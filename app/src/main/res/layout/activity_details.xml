@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_container"
+    style="@style/Match">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/details_pager"
+        style="@style/Match"
+        android:overScrollMode="never" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/close"
+        style="@style/Wrap"
+        android:layout_margin="@dimen/item_margin"
+        android:background="@drawable/bg_close"
+        app:srcCompat="@drawable/ic_close" />
+</FrameLayout>

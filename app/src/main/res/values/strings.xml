@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WestwingTask</string>
+    <string name="campaigns">Campaigns</string>
+    <string name="no_data_available">No Data Available</string>
+    <string name="error">There was an error. Please check your internet connection and try again.</string>
+    <string name="retry">Retry</string>
+    <string name="call_now">Call Now</string>
+    <string name="customer_support">+49 800 8767001</string>
+</resources>
